@@ -1,0 +1,13 @@
+base\TestBase.class
+page\StartHerePage.class
+page\ContactsPage.class
+ExtentReportListner\ExtentReportManager.class
+page\SignUpPage.class
+util\TestUtil.class
+page\TasksPage.class
+page\LoginPage.class
+page\HomePage.class
+util\Xls_Reader.class
+page\CompaniesPage.class
+page\DealsPage.class
+page\CalendarPage.class

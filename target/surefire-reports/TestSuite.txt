@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 358.442 sec <<< FAILURE! - in TestSuite
+SelectSingleContectByNameTest(test.ContactsPageTest)  Time elapsed: 10.045 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[text()='test1 test1']//parent::td//preceding-sibling::td
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [df6d0b30-5f94-48eb-a186-abefb25686a2, findElement {using=xpath, value=//a[text()='test1 test1']//parent::td//preceding-sibling::td}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:debuggerAddress: 127.0.0.1:17911, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2456, moz:profile: C:\Users\User-Pc\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:17911/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: df6d0b30-5f94-48eb-a186-abefb25686a2
+	at test.ContactsPageTest.SelectSingleContectByNameTest(ContactsPageTest.java:62)
+
+SelectMultipleContectsByNameTest(test.ContactsPageTest)  Time elapsed: 10.025 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[text()='test1 test1']//parent::td//preceding-sibling::td
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [79821167-b500-4516-8e57-a5daaa737c85, findElement {using=xpath, value=//a[text()='test1 test1']//parent::td//preceding-sibling::td}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:debuggerAddress: 127.0.0.1:16233, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3428, moz:profile: C:\Users\User-Pc\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16233/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 79821167-b500-4516-8e57-a5daaa737c85
+	at test.ContactsPageTest.SelectMultipleContectsByNameTest(ContactsPageTest.java:67)
+
+LoginWithEmptyUsernametTest(test.LoginPageTest)  Time elapsed: 0.15 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at test.LoginPageTest.LoginWithEmptyUsernametTest(LoginPageTest.java:56)
+

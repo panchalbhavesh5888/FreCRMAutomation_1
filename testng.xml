@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Free Crm Automation TestSuite">
+  <test name="FreeCrmAutomationTestByBhavesh">
+  <listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  
+    <classes>
+           <class name="test.StartHerePageTest"/>
+           <class name="test.LoginPageTest"/>
+           <class name="test.HomePageTest"/>
+           <class name="test.ContactsPageTest"/>   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
