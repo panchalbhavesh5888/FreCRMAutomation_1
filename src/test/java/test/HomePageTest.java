@@ -34,15 +34,12 @@ public class HomePageTest extends TestBase {
 		// TODO Auto-generated constructor stub
 		 //.
 		//...
-<<<<<<< HEAD
 		//....
 		
-		
-=======
+	
 
 		 //.
->>>>>>> 458283ef8cfb67aa129a47b95ffb91bfd8ec359e
-	
+
 	}
 
 	@BeforeMethod
